@@ -5,7 +5,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class ActivityCreditsScreen extends AppCompatActivity {
+public class ActivityCreditsScreen extends ActivityTitleScreen {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,14 +9,14 @@
     tools:context=".ActivityTitleScreen">
 
     <Button
-        android:id="@+id/retriveDataButton"
+        android:id="@+id/retrieveDataButton"
         android:layout_width="450dp"
         android:layout_height="140dp"
         android:layout_marginTop="40dp"
         android:backgroundTint="@color/safetyGreen"
         android:focusable="true"
         android:fontFamily="@font/batmfa__"
-        android:text="Retrive Data"
+        android:text="Retrieve Data"
         android:textColor="@color/blueOne"
         android:textSize="57sp"
         app:cornerRadius="10dp"
@@ -94,4 +95,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

@@ -5,7 +5,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class ActivityPitScouting extends AppCompatActivity {
+public class ActivityPitScouting extends ActivityTitleScreen {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

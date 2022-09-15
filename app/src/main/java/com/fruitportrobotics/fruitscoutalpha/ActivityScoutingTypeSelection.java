@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class ActivityScoutingTypeSelection extends AppCompatActivity {
+public class ActivityScoutingTypeSelection extends ActivityTitleScreen {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,9 +16,9 @@ public class ActivityScoutingTypeSelection extends AppCompatActivity {
         setContentView(R.layout.scouting_type_input_screen);
 
         // Creates button objects and attaches the ids
-        Button pitScoutingButton = (Button) findViewById(R.id.pitScoutingButton);
-        Button matchScoutingButton = (Button) findViewById(R.id.matchScoutingButton);
-        Button backButton = (Button) findViewById(R.id.backButtonScoutingSelection);
+        Button pitScoutingButton = findViewById(R.id.pitScoutingButton);
+        Button matchScoutingButton = findViewById(R.id.matchScoutingButton);
+        Button backButton = findViewById(R.id.backButtonScoutingSelection);
 
         pitScoutingButton.setOnClickListener(new View.OnClickListener() {
             @Override

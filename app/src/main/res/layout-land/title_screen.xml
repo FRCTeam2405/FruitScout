@@ -63,7 +63,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/retriveDataButton"
+        android:id="@+id/retrieveDataButton"
         android:layout_width="450dp"
         android:layout_height="140dp"
         android:layout_marginTop="40dp"

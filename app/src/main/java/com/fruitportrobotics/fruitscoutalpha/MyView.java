@@ -148,14 +148,16 @@ public class MyView extends View {
         invalidateTextPaintAndMeasurements();
     }
 
-    /**
-     * Gets the example dimension attribute value.
-     *
-     * @return The example dimension attribute value.
-     */
-    public float getExampleDimension() {
-        return mExampleDimension;
-    }
+// --Commented out by Inspection START (9/10/2022 6:44 PM):
+//    /**
+//     * Gets the example dimension attribute value.
+//     *
+//     * @return The example dimension attribute value.
+//     */
+//    public float getExampleDimension() {
+//        return mExampleDimension;
+//    }
+// --Commented out by Inspection STOP (9/10/2022 6:44 PM)
 
     /**
      * Sets the view"s example dimension attribute value. In the example view, this dimension

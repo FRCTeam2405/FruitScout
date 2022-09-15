@@ -5,7 +5,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class ActivitySettingsScreen extends AppCompatActivity {
+public class ActivitySettingsScreen extends ActivityTitleScreen {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

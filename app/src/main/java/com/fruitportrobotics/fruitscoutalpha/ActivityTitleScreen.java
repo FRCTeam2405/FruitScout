@@ -16,11 +16,11 @@ public class ActivityTitleScreen extends AppCompatActivity {
         setContentView(R.layout.title_screen);
 
         // Creates button objects and attaches the ids
-        Button startButton = (Button) findViewById(R.id.startButton);
-        Button settingsButton = (Button) findViewById(R.id.settingsButton);
+        Button startButton = findViewById(R.id.startButton);
+        Button settingsButton = findViewById(R.id.settingsButton);
         // May be removed
-        Button dataRetrivalButton = (Button) findViewById(R.id.retriveDataButton);
-        TextView titleTextView = (TextView) findViewById(R.id.titleTextView);
+        Button dataRetrievalButton = findViewById(R.id.retrieveDataButton);
+        TextView titleTextView = findViewById(R.id.titleTextView);
 
         // Waits until the startButton is pressed and then preforms the code in the curly braces
         startButton.setOnClickListener(new View.OnClickListener() {
@@ -47,7 +47,7 @@ public class ActivityTitleScreen extends AppCompatActivity {
             }
         });
         // May be removed, do not edit until certain
-        dataRetrivalButton.setOnClickListener(new View.OnClickListener() {
+        dataRetrievalButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 

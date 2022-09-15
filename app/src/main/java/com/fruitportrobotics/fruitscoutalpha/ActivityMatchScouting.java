@@ -2,14 +2,10 @@ package com.fruitportrobotics.fruitscoutalpha;
 
 import android.os.Bundle;
 
-import com.google.android.material.snackbar.Snackbar;
-
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.view.View;
 
-
-public class ActivityMatchScouting extends AppCompatActivity {
+public class ActivityMatchScouting extends ActivityTitleScreen {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
