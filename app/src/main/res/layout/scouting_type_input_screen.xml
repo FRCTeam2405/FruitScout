@@ -63,7 +63,7 @@
         android:layout_height="85dp"
         android:backgroundTint="@color/outlineGreen"
         android:fontFamily="@font/batmfa__"
-        android:text="Back"
+        android:text="@string/back_button_text"
         android:textColor="@color/blueOne"
         android:textSize="45sp"
         app:cornerRadius="10dp"

@@ -13,11 +13,11 @@ public class ActivitySettingsScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.settings_screen);
     }
-    // Switch Activity Method (Creates a switchActiveIntent Intent and starts the activity referenced )
-    public void switchActivity(Class switchTo) {
-        Intent switchActivityIntent = new Intent(this, switchTo);
-        startActivity(switchActivityIntent);
-        // May cause problems
-        this.finish();
-    }
+//    // Switch Activity Method (Creates a switchActiveIntent Intent and starts the activity referenced )
+//    public void switchActivity(Class switchTo) {
+//        Intent switchActivityIntent = new Intent(this, switchTo);
+//        startActivity(switchActivityIntent);
+//        // May cause problems
+//        this.finish();
+//    }
 }

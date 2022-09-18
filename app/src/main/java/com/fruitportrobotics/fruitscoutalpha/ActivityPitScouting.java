@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-
+// Could cause problems
 public class ActivityPitScouting extends ActivityTitleScreen {
 
     @Override
@@ -13,7 +13,7 @@ public class ActivityPitScouting extends ActivityTitleScreen {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pit_scouting_input_screen);
     }
-
+    // TODO: Alter switch activity method to close activities after checking for unsaved data
     // Switch Activity Method (Creates a switchActiveIntent Intent and starts the activity referenced )
     public void switchActivity(Class switchTo) {
         Intent switchActivityIntent = new Intent(this, switchTo);

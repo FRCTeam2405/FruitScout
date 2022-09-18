@@ -27,12 +27,12 @@
         android:layout_height="94dp"
         android:fontFamily="@font/batmfa__"
         android:text="@string/creator_text"
+        android:textAlignment="center"
         android:textColor="@color/safetyGreen"
         android:textSize="70sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.094"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.247" />
+        app:layout_constraintVertical_bias="0.252" />
 </androidx.constraintlayout.widget.ConstraintLayout>

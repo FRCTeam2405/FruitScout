@@ -20,34 +20,21 @@ public class ActivityScoutingTypeSelection extends ActivityTitleScreen {
         Button matchScoutingButton = findViewById(R.id.matchScoutingButton);
         Button backButton = findViewById(R.id.backButtonScoutingSelection);
 
-        pitScoutingButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-            // Switches to ActivityPitScouting
-            switchActivity(ActivityPitScouting.class);
-            }
+        pitScoutingButton.setOnClickListener(view -> {
+        // Switches to ActivityPitScouting
+        switchActivity(ActivityPitScouting.class);
         });
 
-        matchScoutingButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                switchActivity(ActivityMatchScouting.class);
-            }
-        });
+        matchScoutingButton.setOnClickListener(view -> switchActivity(ActivityMatchScouting.class));
 
-        backButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                switchActivity(ActivityTitleScreen.class);
-            }
-        });
+        backButton.setOnClickListener(view -> switchActivity(ActivityTitleScreen.class));
     }
 
-      // Switch Activity Method (Creates a switchActiveIntent Intent and starts the activity referenced)
-    public void switchActivity(Class switchTo) {
-        Intent switchActivityIntent = new Intent(this, switchTo);
-        startActivity(switchActivityIntent);
-        // May cause problems
-        this.finish();
-    }
+//      // Switch Activity Method (Creates a switchActiveIntent Intent and starts the activity referenced)
+//    public void switchActivity(Class switchTo) {
+//        Intent switchActivityIntent = new Intent(this, switchTo);
+//        startActivity(switchActivityIntent);
+//        // May cause problems
+//        this.finish();
+//    }
 }
