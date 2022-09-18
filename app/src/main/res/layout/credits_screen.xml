@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backgroundNavyBlue">
@@ -12,7 +10,7 @@
         android:layout_width="686dp"
         android:layout_height="140dp"
         android:fontFamily="@font/batmfa__"
-        android:text="Credits"
+        android:text="@string/credits_text"
         android:textAlignment="center"
         android:textColor="@color/safetyGreen"
         android:textSize="120sp"
@@ -28,7 +26,7 @@
         android:layout_width="472dp"
         android:layout_height="94dp"
         android:fontFamily="@font/batmfa__"
-        android:text="Creator"
+        android:text="@string/creator_text"
         android:textColor="@color/safetyGreen"
         android:textSize="70sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,4 +35,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.247" />
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

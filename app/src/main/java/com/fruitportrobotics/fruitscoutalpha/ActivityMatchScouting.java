@@ -1,5 +1,6 @@
 package com.fruitportrobotics.fruitscoutalpha;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +13,12 @@ public class ActivityMatchScouting extends ActivityTitleScreen {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.match_scouting_input_screen);
 
-        // String balls = String.valueOf(R.string.title_activity_two);
+    }
+    // Switch Activity Method (Creates a switchActiveIntent Intent and starts the activity referenced )
+    public void switchActivity(Class switchTo) {
+        Intent switchActivityIntent = new Intent(this, switchTo);
+        startActivity(switchActivityIntent);
+        // May cause problems
+        this.finish();
     }
 }

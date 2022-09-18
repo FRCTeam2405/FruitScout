@@ -14,38 +14,32 @@
         android:theme="@style/Theme.FruitScoutAlpha"
         tools:targetApi="31">
         <activity
-            android:name=".ActivityTitleScreen"
-            android:exported="true"
-            android:theme="@style/Theme.FruitScoutAlpha.NoActionBar"
-            />
-        <activity
             android:name=".ActivityMatchScouting"
-            android:exported="false"
+            android:exported="true"
             android:label="@string/title_match_scouting_screen"
-            android:theme="@style/Theme.FruitScoutAlpha.NoActionBar">
-            </activity>
+            android:theme="@style/Theme.FruitScoutAlpha.NoActionBar" />
         <activity
             android:name=".ActivityPitScouting"
             android:exported="true"
-            android:theme="@style/Theme.FruitScoutAlpha.NoActionBar">
-            </activity>
+            android:theme="@style/Theme.FruitScoutAlpha.NoActionBar" />
         <activity
             android:name=".ActivityScoutingTypeSelection"
             android:exported="true"
-            android:theme="@style/Theme.FruitScoutAlpha.NoActionBar">
-            </activity>
+            android:theme="@style/Theme.FruitScoutAlpha.NoActionBar" />
         <activity
             android:name=".ActivitySettingsScreen"
             android:exported="true"
-            android:theme="@style/Theme.FruitScoutAlpha.NoActionBar">
-
+            android:theme="@style/Theme.FruitScoutAlpha.NoActionBar" />
+        <activity
+            android:name=".ActivityTitleScreen"
+            android:exported="true"
+            android:theme="@style/Theme.FruitScoutAlpha.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

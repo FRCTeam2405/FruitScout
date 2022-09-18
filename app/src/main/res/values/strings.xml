@@ -14,4 +14,13 @@
     <string name="TextView_Testing">One Two three four five six seven eight nine ten</string>
     <string name="Test_eighty_character_limit">wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</string>
     <string name="Test_40_characters">wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</string>
+    <string name="retrieve_data_button_text">Retrieve Data</string>
+    <string name="scout_text">Scout</string>
+    <string name="settings_text">Settings</string>
+    <string name="fruitscout_text">FruitScout</string>
+    <string name="credits_text">Credits</string>
+    <string name="creator_text">Creator</string>
+    <string name="select_scouting_type_text">Please Select Scouting Type</string>
+    <string name="match_scouting_button_text">Match Scouting</string>
+    <string name="pit_scouting_button_text">Pit Scouting</string>
 </resources>
