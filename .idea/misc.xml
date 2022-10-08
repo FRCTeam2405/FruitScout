@@ -7,12 +7,12 @@
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1945" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/drawable/logo_cutout_automatic.xml" value="0.1945" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/activity_main.xml" value="0.19375" />
-        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/credits_screen.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/credits_screen.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/data_input_sceen.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/data_input_screen.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/match_scouting_input_screen.xml" value="0.12" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/pit_scouting_input_screen.xml" value="0.1" />
-        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/scouting_type_input_screen.xml" value="0.1" />
+        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/scouting_type_input_screen.xml" value="0.22" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/settings_screen.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/title_screen.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.1" />
@@ -37,5 +37,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>
