@@ -27,4 +27,8 @@
     <string name="settings_button_text">Settings</string>
     <string name="back_button_text">Back</string>
     <string name="placeholder_text">Placeholder</string>
+    <string name="settingsscreen_scrollview_contentdescription">SettingsScreen ScrollView</string>
+    <string name="title_activity_settings_screen">SettingsScreen</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
 </resources>
