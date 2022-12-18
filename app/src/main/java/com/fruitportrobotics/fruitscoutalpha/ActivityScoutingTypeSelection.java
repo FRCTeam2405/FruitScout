@@ -22,12 +22,12 @@ public class ActivityScoutingTypeSelection extends ActivityTitleScreen {
 
         pitScoutingButton.setOnClickListener(view -> {
         // Switches to ActivityPitScouting
-        switchActivity(ActivityPitScouting.class);
+        switchActivity(ActivityPitScouting.class, true);
         });
 
-        matchScoutingButton.setOnClickListener(view -> switchActivity(ActivityMatchScouting.class));
+        matchScoutingButton.setOnClickListener(view -> switchActivity(ActivityMatchScouting.class, true));
 
-        backButton.setOnClickListener(view -> switchActivity(ActivityTitleScreen.class));
+        backButton.setOnClickListener(view -> switchActivity(ActivityTitleScreen.class, true));
     }
 
 //      // Switch Activity Method (Creates a switchActiveIntent Intent and starts the activity referenced)

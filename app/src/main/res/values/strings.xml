@@ -15,8 +15,6 @@
     <string name="Test_eighty_character_limit">wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</string>
     <string name="Test_40_characters">wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</string>
     <string name="retrieve_data_button_text">Retrieve Data</string>
-    <string name="scout_text">Scout</string>
-    <string name="settings_text">Settings</string>
     <string name="fruitscout_text">FruitScout</string>
     <string name="credits_text">Credits</string>
     <string name="creator_text">Creator</string>
@@ -27,8 +25,10 @@
     <string name="settings_button_text">Settings</string>
     <string name="back_button_text">Back</string>
     <string name="placeholder_text">Placeholder</string>
-    <string name="settingsscreen_scrollview_contentdescription">SettingsScreen ScrollView</string>
     <string name="title_activity_settings_screen">SettingsScreen</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
+    <string name="Content_Description_Settings">Scroll Area Containing Settings</string>
+    <string name="pit_scouting_questions_text">Pit Scouting Questions</string>
+    <string name="enter_question_hinttext">Enter Question</string>
 </resources>

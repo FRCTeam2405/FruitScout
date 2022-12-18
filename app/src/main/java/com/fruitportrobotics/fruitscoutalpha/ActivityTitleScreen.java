@@ -23,42 +23,32 @@ public class ActivityTitleScreen extends AppCompatActivity {
         TextView titleTextView = findViewById(R.id.titleTextView);
 
         // Waits until the startButton is pressed and then preforms the code in the curly braces
-        startButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // Switches to ActivityScoutingTypeSelection
-                switchActivity(ActivityScoutingTypeSelection.class);
-            }
+        startButton.setOnClickListener(view -> {
+            // Switches to ActivityScoutingTypeSelection
+            switchActivity(ActivityScoutingTypeSelection.class,true);
         });
         // Waits until the button is pressed and then preforms the code in the curly braces
-        settingsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // Switches to ActivitySettingsScreen
-                switchActivity(ActivitySettingsScreen.class);
-            }
+        settingsButton.setOnClickListener(view -> {
+            // Switches to ActivitySettingsScreen
+            switchActivity(ActivitySettingsScreen.class, false);
         });
         // Listens for the title to be clicked and then preforms code in the curly braces
-        titleTextView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // Switches to ActivityCreditsScreen
-                switchActivity(ActivityCreditsScreen.class);
-            }
+        titleTextView.setOnClickListener(view -> {
+            // Switches to ActivityCreditsScreen
+            switchActivity(ActivityCreditsScreen.class, false);
         });
         // May be removed, do not edit until certain
-        dataRetrievalButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        dataRetrievalButton.setOnClickListener(view -> {
 
-            }
         });
     }
     // Switch Activity Method (Creates a switchActiveIntent Intent and starts the activity referenced )
-    public void switchActivity(Class switchTo) {
+    public void switchActivity(Class switchTo, Boolean finish) {
         Intent switchActivityIntent = new Intent(this, switchTo);
         startActivity(switchActivityIntent);
-        // May cause problems
-        this.finish();
+
+        if (finish) {
+            this.finish();
+        }
     }
 }

@@ -15,7 +15,7 @@
         android:backgroundTint="@color/safetyGreen"
         android:focusable="true"
         android:fontFamily="@font/batmfa__"
-        android:text="sml"
+        android:text="@string/start_button_text"
         android:textColor="#192CD3"
         android:textSize="37sp"
         app:cornerRadius="10dp"

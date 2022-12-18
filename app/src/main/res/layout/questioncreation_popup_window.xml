@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/safetyGreen">
+
+    <EditText
+        android:id="@+id/enterQuestionEditText"
+        android:layout_width="382dp"
+        android:layout_height="126dp"
+        android:background="@drawable/edittext_border"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:fontFamily="@font/batmfa__"
+        android:hint="@string/enter_question_hinttext"
+        android:importantForAutofill="no"
+        android:inputType="textLongMessage|textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/backgroundNavyBlue"
+        android:textSize="30sp" />
+
+</RelativeLayout>

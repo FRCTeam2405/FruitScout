@@ -15,10 +15,12 @@ public class ActivityPitScouting extends ActivityTitleScreen {
     }
     // TODO: Alter switch activity method to close activities after checking for unsaved data
     // Switch Activity Method (Creates a switchActiveIntent Intent and starts the activity referenced )
-    public void switchActivity(Class switchTo) {
-        Intent switchActivityIntent = new Intent(this, switchTo);
-        startActivity(switchActivityIntent);
-        // May cause problems
-        this.finish();
-    }
+//    public void switchActivity(Class switchTo, boolean finish) {
+//        Intent switchActivityIntent = new Intent(this, switchTo);
+//        startActivity(switchActivityIntent);
+//
+//        if (finish) {
+//            this.finish();
+//        }
+//    }
 }
