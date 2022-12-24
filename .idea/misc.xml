@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/drawable/blue_circle.xml" value="0.2075" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/drawable/edittext_border.xml" value="0.2065" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1945" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/drawable/logo_cutout_automatic.xml" value="0.1945" />
+        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/drawable/relativelayout_border.xml" value="0.2075" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/activity_main.xml" value="0.19375" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/credits_screen.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/data_input_sceen.xml" value="0.1" />
@@ -39,7 +41,7 @@
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/fragment_settings_screen.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/match_scouting_input_screen.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/pit_scouting_input_screen.xml" value="0.15" />
-        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/questioncreation_popup_window.xml" value="0.22" />
+        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/questioncreation_popup_window.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/sample_my_view.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/scouting_type_input_screen.xml" value="0.40308370044052866" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/settings_screen.xml" value="0.15219976218787157" />
