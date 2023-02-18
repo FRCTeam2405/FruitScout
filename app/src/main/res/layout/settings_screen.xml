@@ -9,8 +9,8 @@
 
     <Button
         android:id="@+id/backButtonSettings"
-        android:layout_width="252dp"
-        android:layout_height="63dp"
+        android:layout_width="290dp"
+        android:layout_height="73dp"
         android:backgroundTint="@color/outlineGreen"
         android:fontFamily="@font/batmfa__"
         android:text="@string/back_button_text"
@@ -35,17 +35,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center|top"
-            android:orientation="vertical">
+            android:layout_gravity="center|top">
 
             <TextView
                 android:id="@+id/pitScoutingQuestionsTextView"
                 android:layout_width="match_parent"
                 android:layout_height="146dp"
-                android:baselineAligned="false"
+                android:layout_alignParentTop="true"
                 android:fontFamily="@font/batmfa__"
                 android:gravity="center"
                 android:text="@string/pit_scouting_questions_text"
@@ -53,64 +52,22 @@
                 android:textColor="@color/safetyGreen"
                 android:textSize="50sp" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+            <Button
+                android:id="@+id/addQuestionButton"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_below="@id/pitScoutingQuestionsTextView"
+                android:layout_marginLeft="70dp"
+                android:backgroundTint="@color/safetyGreen"
+                android:fontFamily="@font/batmfa__"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="@color/backgroundNavyBlue"
+                android:textSize="80sp"
+                android:textStyle="bold"
+                app:cornerRadius="30dp" />
 
-                <TextView
-                    android:id="@+id/space1TextView"
-                    android:layout_width="35dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="TextView"
-                    android:textColor="@color/backgroundNavyBlue"
-                    tools:ignore="TextContrastCheck" />
-
-                <Button
-                    android:id="@+id/addQuestionButton"
-                    android:layout_width="70dp"
-                    android:layout_height="120dp"
-                    android:layout_weight="1"
-                    android:backgroundTint="@color/safetyGreen"
-                    android:fontFamily="@font/batmfa__"
-                    android:text="+"
-                    android:textAlignment="center"
-                    android:textColor="@color/backgroundNavyBlue"
-                    android:textSize="80sp"
-                    android:textStyle="bold"
-                    app:cornerRadius="30dp" />
-
-                <TextView
-                    android:id="@+id/space2TextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="TextView"
-                    android:textColor="@color/backgroundNavyBlue"
-                    tools:ignore="TextContrastCheck" />
-
-                <TextView
-                    android:id="@+id/textView7"
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/batmfa__"
-                    android:text="@string/placeholder_text"
-                    android:textColor="@color/backgroundNavyBlue"
-                    android:textSize="24sp" />
-
-                <TextView
-                    android:id="@+id/space3TextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="TextView"
-                    android:textColor="@color/backgroundNavyBlue" />
-
-            </LinearLayout>
-
-        </LinearLayout>
+        </RelativeLayout>
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

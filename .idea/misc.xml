@@ -17,7 +17,7 @@
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/pit_scouting_input_screen.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/scouting_type_input_screen.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/settings_screen.xml" value="0.1" />
-        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/title_screen.xml" value="0.8259911894273128" />
+        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-land/title_screen.xml" value="0.14" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-large-port/title_screen.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-small-land/title_screen.xml" value="0.14" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-small/scouting_type_input_screen.xml" value="0.8458149779735683" />
@@ -28,10 +28,17 @@
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w1200dp/title_screen.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w300dp-port/title_screen.xml" value="0.2" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w300dp/scouting_type_input_screen.xml" value="0.16417272338606242" />
-        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w300dp/title_screen.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w300dp/title_screen.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w400dp-h900dp/title_screen.xml" value="0.1" />
+        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w600dp-h400dp/title_screen.xml" value="0.11573523583036067" />
+        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w600dp-h900dp/title_screen.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w600dp-land/title_screen.xml" value="0.11145833333333334" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w600dp/scouting_type_input_screen.xml" value="0.15219976218787157" />
-        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w600dp/title_screen.xml" value="0.1" />
+        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w600dp/title_screen.xml" value="0.11573523583036067" />
+        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w675dp-h850dp/title_screen.xml" value="0.1" />
+        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w680dp-h850dp/title_screen.xml" value="0.1" />
+        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w900dp-h400dp/title_screen.xml" value="0.1" />
+        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w900dp-land/title_screen.xml" value="0.16032492518170158" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w900dp/scouting_type_input_screen.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout-w900dp/title_screen.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/activity_main.xml" value="0.12" />
@@ -41,13 +48,13 @@
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/fragment_settings_screen.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/match_scouting_input_screen.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/pit_scouting_input_screen.xml" value="0.15" />
-        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/questioncreation_popup_window.xml" value="0.1" />
+        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/questioncreation_popup_window.xml" value="0.22" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/sample_my_view.xml" value="0.1" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/scouting_type_input_screen.xml" value="0.40308370044052866" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/settings_screen.xml" value="0.15219976218787157" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/settings_screen_test.xml" value="0.11" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/test_popupscreen.xml" value="0.15219976218787157" />
-        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/title_screen.xml" value="0.1" />
+        <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/layout/title_screen.xml" value="0.16417272338606242" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1945" />
         <entry key="..\:/Users/ethan/AndroidStudioProjects/FruitScoutAlpha/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1945" />
       </map>

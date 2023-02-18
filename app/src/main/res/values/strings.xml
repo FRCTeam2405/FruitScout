@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">FruitScout (Alpha)</string>
-    <string name="version_number">v1.0.1</string>
+    <string name="version_number">v0.0.0</string>
     <string name="title_activity_two">ActivityTwo</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -33,5 +33,5 @@
     <string name="enter_question_hinttext">Enter Question</string>
     <string name="slider_question_text">Slider</string>
     <string name="short_response_text">Short Response</string>
-    <string name="checkboxes_text">Checkboxes</string>
+    <string name="multi_choice_text">Multiple Choice</string>
 </resources>
